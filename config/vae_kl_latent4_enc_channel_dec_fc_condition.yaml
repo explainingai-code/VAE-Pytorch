@@ -1,0 +1,40 @@
+model_params:
+  in_channels: 1
+  convbn_blocks: 3
+  conv_kernel_size: [2,2,2]
+  conv_kernel_strides: [2, 2, 2]
+  convbn_channels: [1, 16, 32, 64]
+  enc_fc_layers: [576, 128, 4]
+  enc_fc_mu_activation:
+  enc_fc_var_activation:
+  conv_activation_fn: 'leaky'
+  enc_fc_activation_fn: 'leaky'
+  dec_fc_layers: [4, 128, 576]
+  dec_fc_activation_fn: 'leaky'
+  transpose_bn_blocks: 3
+  transposebn_channels: [64, 32, 16, 1]
+  transpose_kernel_size: [3,2,2]
+  transpose_kernel_strides: [2,2,2]
+  transpose_activation_fn: 'tanh'
+  log_variance: True
+  latent_dim: 4
+  concat_channel: True
+  decoder_fc_condition: True
+  num_classes: 10
+  conditional: True
+
+train_params:
+  task_name: 'vae_kl_latent4_enc_channel_dec_fc_condition'
+  batch_size: 64
+  epochs: 10
+  kl_weight: 0.00001
+  lr: 0.005
+  crit: 'l2'
+  ckpt_name: 'best_vae_kl_latent4_enc_channel_dec_fc_condition.pth'
+  seed: 111
+  save_training_image: True
+
+  train_path: 'data/train/images'
+  test_path: 'data/test/images'
+  output_train_dir: 'output'
+  save_latent_plot: True
