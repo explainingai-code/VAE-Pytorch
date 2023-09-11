@@ -16,8 +16,8 @@ and visualizations.
 * ```pip install -r requirements.txt```
 * For running a simple fc layer backed VAE with latent dimension as 2 run ```python run_simple_vae.py```
 * For playing around with VAE and running visualizations, replace tools/train_vae.py and tools/inference.py config argument with the desired one or pass that in the next set of commands
-* ```python -m tools.train_vae.py```
-* ```python -m tools.inference.py ```
+* ```python -m tools.train_vae```
+* ```python -m tools.inference```
 
 ## Configurations
 * ```config/vae_nokl.py``` - VAE with only reconstruction loss
