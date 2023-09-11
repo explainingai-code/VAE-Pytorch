@@ -11,7 +11,7 @@ and visualizations.
 
 # Quickstart
 * Create a new conda environment with python 3.8 then run below commands
-* ```git clone https://github.com/tusharkumar91/Pytorch-VAE.git```
+* ```git clone https://github.com/explainingai-code/Pytorch-VAE.git```
 * ```cd Pytorch-VAE```
 * ```pip install -r requirements.txt```
 * For running a simple fc layer backed VAE with latent dimension as 2 run ```python run_simple_vae.py```
