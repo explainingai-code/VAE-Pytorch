@@ -7,9 +7,9 @@ to visualize the latent space, entire manifold as well as visualize how numbers 
 The purpose of this project is to get a better understanding of VAE by playing with the different parameters
 and visualizations.
 
-[Video on Understanding VAE](https://www.youtube.com/watch?v=1RPdu_5FCfk)
+[My Video on Understanding VAE](https://www.youtube.com/watch?v=1RPdu_5FCfk)
 
-[Video on Implementing VAE](https://www.youtube.com/watch?v=pEsC0Vcjc7c)
+[My Video on Implementing VAE](https://www.youtube.com/watch?v=pEsC0Vcjc7c)
 
 <img src="https://github.com/explainingai-code/Pytorch-VAE/assets/144267687/a67b9a50-78fa-4876-8094-0db6db08e91c" width="700">
 
