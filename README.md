@@ -1,16 +1,23 @@
 VAE Implementation in pytorch with visualizations
 ========
 
-This repository implements a simpleVAE for training on CPU on the MNIST dataset and provides ability
+This repository implements a simple VAE for training on CPU on the MNIST dataset and provides ability
 to visualize the latent space, entire manifold as well as visualize how numbers interpolate between each other.
 
 The purpose of this project is to get a better understanding of VAE by playing with the different parameters
 and visualizations.
 
-[My Video on Understanding VAE](https://www.youtube.com/watch?v=1RPdu_5FCfk)
+## VAE Tutorial Videos
+<a href="https://www.youtube.com/watch?v=1RPdu_5FCfk">
+   <img alt="VAE Understanding" src="https://github.com/explainingai-code/VAE-Pytorch/assets/144267687/da55f1cb-0cdc-46ec-82db-6ed6da2cca58"
+   width="300">
+</a>
+<a href="https://www.youtube.com/watch?v=pEsC0Vcjc7c">
+   <img alt="Implementing VAE" src="https://github.com/explainingai-code/VAE-Pytorch/assets/144267687/d5590353-a9e9-44df-b99c-6b7f389b4f54"
+   width="300">
+</a>
 
-[My Video on Implementing VAE](https://www.youtube.com/watch?v=pEsC0Vcjc7c)
-
+## Architecture
 <img src="https://github.com/explainingai-code/Pytorch-VAE/assets/144267687/a67b9a50-78fa-4876-8094-0db6db08e91c" width="700">
 
 # Quickstart
