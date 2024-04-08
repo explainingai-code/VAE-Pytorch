@@ -165,8 +165,8 @@ class VAE(nn.Module):
             z = torch.randn((num_images, self.latent_dim))
         if self.config['conditional']:
             assert label is not None, "Label cannot be none for conditional sampling"
+            assert label.size(0) == num_images
         assert z.size(0) == num_images
-        assert label.size(0) == num_images
         out = self.generate(z, label)
         return out
     
