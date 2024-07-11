@@ -27,5 +27,5 @@ def extract_images(save_dir, csv_fname):
             
             
 if __name__ == '__main__':
-    extract_images('data/train/images', '../data/mnist_train.csv')
-    extract_images('data/test/images', '../data/mnist_test.csv')
+    extract_images('data/train/images', 'data/mnist_train.csv')
+    extract_images('data/test/images', 'data/mnist_test.csv')
