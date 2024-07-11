@@ -40,8 +40,10 @@ and visualizations.
 We don't use the torchvision mnist dataset to allow replacement with any other image dataset. 
 
 For setting up the dataset:
+* Create ```data/train/images``` and ```data/test/images``` folders
 * Download the csv files for mnist(https://www.kaggle.com/datasets/oddrationale/mnist-in-csv)
 and save them under ```data```directory.
+* 
 * Run ```python utils/extract_mnist_images.py``` 
 
 Verify the data directory has the following structure:
